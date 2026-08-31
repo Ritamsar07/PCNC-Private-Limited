@@ -722,8 +722,7 @@ h2{font-size:clamp(1.6rem,2.5vw,2.35rem);}
 
   /* Header action buttons */
   .header-actions{display:flex;align-items:center;gap:8px;}
-  .btn-header-cta{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;font-size:.82rem;font-weight:700;border-radius:999px;}
-  .btn-header-cta .cta-text{display:inline;}
+  .btn-header-cta{display:none;}
   .btn-header-call{width:38px;height:38px;padding:0;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;flex:none;}
   .btn-header-call .call-text{display:none;}
   .btn-header-call svg{margin:0;flex:none;width:16px;height:16px;min-width:16px;}
