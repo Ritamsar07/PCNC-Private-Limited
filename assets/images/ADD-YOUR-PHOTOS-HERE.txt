@@ -1,0 +1,30 @@
+Drop your real image files into this folder using these EXACT filenames, and the whole site
+updates automatically (every page already points to these paths).
+
+ALREADY IN PLACE (uploaded and live on the site):
+logo.jpg              -> your PCNC 3D ring logo
+router.jpg             -> the black WiFi router photo
+                          WARNING: this file still has a visible Shutterstock watermark.
+                          Replace it with a licensed or original photo before this goes live,
+                          publishing a watermarked stock photo on a client site is a real
+                          copyright risk.
+cpe-outdoor.jpg         -> the white outdoor wireless antenna unit (2-piece kit)
+cpe-mikrotik.jpg        -> the white MikroTik outdoor CPE unit
+coverage-map.jpg        -> the green North Bengal district coverage map (used on the Network page)
+
+STILL NEEDED:
+about-office.jpg        -> a photo of your office, team or install crew (used on About)
+enterprise.jpg          -> a server rack / office network photo (used on Services)
+fiber-crew.jpg          -> a fiber splicing / installation photo (used on Network)
+office-map.jpg          -> a Google Maps screenshot of your Raiganj office (used on Contact)
+
+Until a file is added, that spot on the site shows a clean navy-to-teal placeholder card
+labelled with the filename it's waiting for, instead of a broken image icon, so nothing
+looks unfinished while you're gathering the photos.
+
+Any common web format works (.jpg, .jpeg, .png, .webp), just keep the filename (before the
+dot) the same, or update the "src" in the HTML if you'd rather rename them.
+
+Note: the district coverage map (coverage-map.jpg) is no longer the main map on the Home
+and Coverage pages, those now use a live, interactive map (Leaflet + OpenStreetMap) with
+pins on all six districts, so no photo is needed there.
