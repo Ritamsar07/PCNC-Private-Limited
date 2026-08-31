@@ -1013,6 +1013,11 @@ h2{font-size:clamp(1.6rem,2.5vw,2.35rem);}
   .foot-links a{line-height:2;}
   .testi-dot{width:12px;height:12px;}
   .testi-dot.active{width:28px;}
+  /* Icon-only round buttons must stay circular on touch devices: the min-height
+     above stretches them tall (width stayed at 34-38px, height forced to 44px)
+     since only .btn's height was pinned for tap-target size, not its width. */
+  .btn-header-call{width:44px;min-height:44px;height:44px;min-width:44px;}
+  .btn-header-call svg{width:17px;height:17px;min-width:17px;}
 }
 
 
